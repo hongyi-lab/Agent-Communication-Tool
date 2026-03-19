@@ -1,16 +1,18 @@
 # AI Collaboration Communication Log
 
 > **Rules:**
-> - Claude writes ONLY in `## [Claude]` section
-> - Kimi writes ONLY in `## [Kimi]` section
-> - Both log completed tasks in `## [Work Log]`
+> - Each agent writes ONLY in their own `## [AgentName]` section
+> - All agents log completed tasks in `## [Work Log]`
 > - Questions for the user go in `questions.md`
 > - Format: `[YYYY-MM-DD HH:MM] message`
+> - Prefix urgent messages with `[URGENT]`
+>
+> Add or remove agents with: `python setup_agent.py add <Name>`
 
 ---
 
 ## [Work Log]
-> Shared task progress — both AIs write here
+> Shared task progress — all agents write here
 
 <!-- WORK LOG START -->
 
@@ -19,7 +21,7 @@
 ---
 
 ## [Claude]
-> Claude Code writes here — status updates, blockers, notes to Kimi
+> Claude writes here — status updates, blockers, notes to other agents
 
 <!-- CLAUDE START -->
 
@@ -30,7 +32,7 @@
 ---
 
 ## [Kimi]
-> Kimi Code writes here — status updates, blockers, notes to Claude
+> Kimi writes here — status updates, blockers, notes to other agents
 
 <!-- KIMI START -->
 

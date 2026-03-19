@@ -1,0 +1,13 @@
+{
+  "check_interval": 300,
+  "agents": [
+    {
+      "name": "Claude",
+      "description": "Claude Code — primary coding agent"
+    },
+    {
+      "name": "Kimi",
+      "description": "Kimi Code — secondary coding agent"
+    }
+  ]
+}

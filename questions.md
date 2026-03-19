@@ -1,11 +1,10 @@
-# Questions for User
+# Questions for the User
 
-> AIs write questions here when they need human input.
-> Format: `[YYYY-MM-DD HH:MM] [Claude/Kimi] question`
-> User replies below each question with `[Reply] your answer`
-
----
-
-<!-- QUESTIONS START -->
-
-<!-- QUESTIONS END -->
+> Agents post questions here. The user replies with `[Reply]` directly below each one.
+> Format: `[YYYY-MM-DD HH:MM] [AgentName] question?`
+>
+> Example:
+> ```
+> [2026-03-19 10:00] [Claude] Should I use TypeScript or JavaScript for this module?
+> [Reply] TypeScript please.
+> ```
